@@ -1,0 +1,30 @@
+.container {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 16px;
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+}
+
+.container_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.container_logo_image {
+  width: 32px;
+  height: 32px;
+}
+
+.container_logo_text {
+  font-size: 16px;
+  font-weight: 600;
+}

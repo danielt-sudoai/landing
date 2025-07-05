@@ -1,0 +1,23 @@
+
+
+@layer base {
+    html {
+      font-family: var(--font-montserrat);
+      color: #333;
+    }
+    /* Ensure Montserrat is applied to all text elements */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-montserrat);
+    }
+    
+    p, span, div, a, button, input, textarea, label {
+      font-family: var(--font-montserrat);
+    }
+    
+    /* Override any potential framework defaults */
+    * {
+      font-family: inherit;
+    }
+  }
+  
+
