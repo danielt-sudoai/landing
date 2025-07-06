@@ -1,43 +1,54 @@
 :root {
-    --padding-page: 80px;
+  --padding-page: 80px;
+  --padding-section: 80px;
 }
 
 .padding-page {
-    padding-left: var(--padding-page);
-    padding-right: var(--padding-page);
+  padding-left: var(--padding-page);
+  padding-right: var(--padding-page);
+}
+
+.padding-section {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    :root {
-        --padding-page: 20px;
-    }
+  :root {
+    --padding-page: 20px;
+    --padding-section: 40px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    :root {
-        --padding-page: 40px;
-    }
+  :root {
+    --padding-page: 40px;
+    --padding-section: 60px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    :root {
-        --padding-page: 100px;
-    }
+  :root {
+    --padding-page: 100px;
+    --padding-section: 80px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    :root {
-        --padding-page: 180px;
-    }
+  :root {
+    --padding-page: 180px;
+    --padding-section: 100px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    :root {
-        --padding-page: 260px;
-    }
+  :root {
+    --padding-page: 260px;
+    --padding-section: 120px;
+  }
 }
