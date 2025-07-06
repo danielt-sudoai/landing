@@ -33,7 +33,7 @@ export const Navbar = (props: ComponentProps) => {
 
       {/* BUTTON */}
       <div className={styles.container_button}>
-        <Button onClick={handleCTA} className="cursor-pointer">
+        <Button onClick={handleCTA} color="tertiary" variant={"default"}>
           {text[l].cta}
         </Button>
       </div>

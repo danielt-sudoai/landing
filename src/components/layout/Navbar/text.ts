@@ -1,10 +1,10 @@
 export const text = {
   it_IT: {
     title: "Motivami",
-    cta: "Inizia",
+    cta: "Inizia gratis",
   },
   en_GB: {
     title: "Motivami",
-    cta: "Start",
+    cta: "Start for free",
   },
 };

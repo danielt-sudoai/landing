@@ -1,7 +1,7 @@
 @layer base {
   html {
     font-family: var(--font-montserrat);
-    color: var(--color-black);
+    color: var(--black-custom-color);
   }
   /* Ensure Montserrat is applied to all text elements */
   h1,
@@ -11,7 +11,7 @@
   h5,
   h6 {
     font-family: var(--font-montserrat);
-    color: var(--color-black);
+    color: var(--black-custom-color);
   }
 
   p,
@@ -23,7 +23,7 @@
   textarea,
   label {
     font-family: var(--font-montserrat);
-    color: var(--color-black);
+    color: var(--black-custom-color);
   }
 
   /* Override any potential framework defaults */

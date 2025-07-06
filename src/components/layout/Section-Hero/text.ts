@@ -6,6 +6,7 @@ export const text = {
     cta: {
       applestore: "App Store",
       googleplay: "Google Play",
+      www: "Web App",
     },
   },
   en_GB: {
@@ -15,6 +16,7 @@ export const text = {
     cta: {
       applestore: "App Store",
       googleplay: "Google Play",
+      www: "Web App",
     },
   },
 };
