@@ -1,4 +1,11 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2rem;
+  min-width: 300px;
 }
 
 /* Extra small devices (phones, 600px and down) */

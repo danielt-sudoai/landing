@@ -14,7 +14,7 @@ export const SectionCTA = (props: ComponentProps) => {
   // EFFECTS ----------------------
   // RENDER -----------------------
   return (
-    <section className={`${styles.container} padding-page padding-section`}>
+    <section className={`${styles.container} padding-page`}>
       {/* TITLE */}
       <div className={styles.title_container}>
         <h3 className={styles.title}>{text[l].title}</h3>

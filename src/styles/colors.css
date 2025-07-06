@@ -87,6 +87,10 @@
   --color-destructive: var(--destructive);
 }
 
+html {
+  background-color: var(--background);
+}
+
 .white-custom-color-filtered {
   filter: var(--white-custom-color-filtered);
 }

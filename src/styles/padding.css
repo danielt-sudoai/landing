@@ -40,7 +40,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   :root {
-    --padding-page: 180px;
+    --padding-page: 100px;
     --padding-section: 100px;
   }
 }
@@ -48,7 +48,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   :root {
-    --padding-page: 260px;
+    --padding-page: 160px;
     --padding-section: 120px;
   }
 }
