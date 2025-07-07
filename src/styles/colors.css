@@ -8,6 +8,10 @@
   --black-custom-color-filtered: brightness(0) saturate(100%) invert(13%)
     sepia(18%) saturate(0%) hue-rotate(281deg) brightness(98%) contrast(96%);
 
+  --gray-custom-color: #e5e5e5;
+  --gray-custom-color-filtered: brightness(0) saturate(100%) invert(100%)
+    sepia(1%) saturate(128%) hue-rotate(65deg) brightness(112%) contrast(80%);
+
   --primary-custom-color: #364f6b;
   --primary-custom-color-filtered: brightness(0) saturate(100%) invert(26%)
     sepia(18%) saturate(1261%) hue-rotate(171deg) brightness(96%) contrast(85%);
@@ -24,6 +28,7 @@
   /* BACKGROUND */
   --background: var(--white-custom-color);
   --foreground: var(--black-custom-color);
+  --gray: var(--gray-custom-color);
 
   /* COLORS */
   --primary: var(--primary-custom-color);
@@ -46,6 +51,7 @@
   /* BACKGROUND */
   --background: var(--color-black);
   --foreground: var(--color-white);
+  --gray: var(--gray-custom-color);
 
   /* COLORS */
   --primary: var(--primary-custom-color);
@@ -69,6 +75,7 @@
   /* BACKGROUND */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-gray: var(--gray);
 
   /* COLORS */
   --color-primary: var(--primary);
@@ -109,4 +116,8 @@ html {
 
 .tertiary-custom-color-filtered {
   filter: var(--tertiary-custom-color-filtered);
+}
+
+.gray-custom-color-filtered {
+  filter: var(--gray-custom-color-filtered);
 }

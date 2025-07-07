@@ -19,20 +19,3 @@
   border: 1px solid rgba(255, 255, 255, 0.48);
   padding: 0 1rem;
 }
-
-.container_logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-}
-
-.container_logo_image {
-  width: 32px;
-  height: 32px;
-}
-
-.container_logo_text {
-  font-size: 16px;
-  font-weight: 600;
-}

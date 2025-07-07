@@ -1,0 +1,80 @@
+.container {
+  background-color: var(--color-gray);
+  min-height: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  gap: 2rem;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.content_box_contact_email {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.content_box_title {
+  font-weight: 600;
+}
+.content_box_elements {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content_box_element {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.content_box_socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.content_copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_copyright_text {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

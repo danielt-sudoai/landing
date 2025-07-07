@@ -30,3 +30,27 @@ export const ConstLinks: TypeLink[] = [
     UID: "faq",
   },
 ];
+
+export const ConstLegal: TypeLink[] = [
+  {
+    label: {
+      it_IT: "Privacy Policy",
+      en_GB: "Privacy Policy",
+    },
+    UID: "privacy-policy",
+  },
+  {
+    label: {
+      it_IT: "Terms of Service",
+      en_GB: "Terms of Service",
+    },
+    UID: "terms-of-service",
+  },
+  {
+    label: {
+      it_IT: "Cookie Policy",
+      en_GB: "Cookie Policy",
+    },
+    UID: "cookie-policy",
+  },
+];

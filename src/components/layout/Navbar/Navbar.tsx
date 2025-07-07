@@ -2,8 +2,8 @@
 import { useContextLanguage } from "@/context/context-Language";
 import { text } from "./text";
 import styles from "./Navbar.module.css";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { BoxLogo } from "../Box-Logo/BoxLogo";
 
 interface ComponentProps {}
 
@@ -20,16 +20,7 @@ export const Navbar = (props: ComponentProps) => {
   return (
     <div className={`${styles.container}`}>
       {/* LOGO */}
-      <div className={styles.container_logo}>
-        <Image
-          className={styles.container_logo_image}
-          src="/logo.png"
-          alt="logo"
-          width={32}
-          height={32}
-        />
-        <span className={styles.container_logo_text}>{text[l].title}</span>
-      </div>
+      <BoxLogo />
 
       {/* BUTTON */}
       <div className={styles.container_button}>

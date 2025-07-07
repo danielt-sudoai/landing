@@ -11,6 +11,7 @@ import { SectionTestimonials } from "@/components/layout/Section-Testimonials/Se
 import { SectionFAQ } from "@/components/layout/Section-FAQ/SectionFAQ";
 import { SectionBenefits } from "@/components/layout/Section-Benefits/SectionBenefits";
 import { SectionFullCard } from "@/components/layout/Section-Full-Card/SectionFullCard";
+import { Footer } from "@/components/layout/Footer/Footer";
 
 export default function Home() {
   const { l } = useContextLanguage();
@@ -80,7 +81,7 @@ export default function Home() {
         <SectionBenefits />
         <SectionFullCard />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
