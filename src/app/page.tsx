@@ -10,6 +10,7 @@ import { SectionPricing } from "@/components/layout/Section-Pricing/SectionPrici
 import { SectionTestimonials } from "@/components/layout/Section-Testimonials/SectionTestimonials";
 import { SectionFAQ } from "@/components/layout/Section-FAQ/SectionFAQ";
 import { SectionBenefits } from "@/components/layout/Section-Benefits/SectionBenefits";
+import { SectionFullCard } from "@/components/layout/Section-Full-Card/SectionFullCard";
 
 export default function Home() {
   const { l } = useContextLanguage();
@@ -77,6 +78,7 @@ export default function Home() {
         <SectionTestimonials />
         <SectionFAQ />
         <SectionBenefits />
+        <SectionFullCard />
       </main>
       <footer></footer>
     </>
