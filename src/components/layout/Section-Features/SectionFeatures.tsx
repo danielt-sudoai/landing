@@ -41,11 +41,9 @@ export const SectionFeatures = (props: ComponentProps) => {
       {/* BOX 2 */}
       <div className={styles.box_content}>
         <HederSection
-          section_title={"Features"}
-          title={"Fondamenta per il Successo"}
-          subtitle={
-            "Tutto quello che ti serve per organizzare e completare i tuoi progetti"
-          }
+          section_title={props.header.section_title}
+          title={props.header.title}
+          subtitle={props.header.subtitle}
         />
         <div className={styles.box_features}>
           {props.features.map((feature, index) => (
