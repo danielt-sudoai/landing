@@ -1,8 +1,16 @@
 export const text = {
   it_IT: {
-    title: "Ciao",
+    header: {
+      section_title: "Testimonianze",
+      title: "Quello che dicono di noi",
+      subtitle: "",
+    },
   },
   en_GB: {
-    title: "Hello",
+    header: {
+      section_title: "Testimonials",
+      title: "What they say about us",
+      subtitle: "",
+    },
   },
 };
