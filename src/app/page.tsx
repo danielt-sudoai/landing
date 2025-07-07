@@ -9,6 +9,7 @@ import { useContextLanguage } from "@/context/context-Language";
 import { SectionPricing } from "@/components/layout/Section-Pricing/SectionPricing";
 import { SectionTestimonials } from "@/components/layout/Section-Testimonials/SectionTestimonials";
 import { SectionFAQ } from "@/components/layout/Section-FAQ/SectionFAQ";
+import { SectionBenefits } from "@/components/layout/Section-Benefits/SectionBenefits";
 
 export default function Home() {
   const { l } = useContextLanguage();
@@ -75,6 +76,7 @@ export default function Home() {
         <SectionPricing />
         <SectionTestimonials />
         <SectionFAQ />
+        <SectionBenefits />
       </main>
       <footer></footer>
     </>

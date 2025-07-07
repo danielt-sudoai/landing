@@ -40,7 +40,7 @@ export const SectionFAQ = (props: ComponentProps) => {
           </a>
         </div>
         <Image
-          src={"/assets/images/faq-3.png"}
+          src={"/assets/images/Faq-bg.png"}
           alt="Box image"
           fill
           style={{
