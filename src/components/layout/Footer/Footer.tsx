@@ -58,6 +58,7 @@ export const Footer = (props: ComponentProps) => {
             <div className={styles.content_box_socials}>
               <a href="https://www.facebook.com/motivami" target="_blank">
                 <Image
+                  className={"black-custom-color-filtered"}
                   src="/assets/icons/facebook.png"
                   alt="Facebook"
                   width={24}
@@ -66,6 +67,7 @@ export const Footer = (props: ComponentProps) => {
               </a>
               <a href="https://www.instagram.com/motivami" target="_blank">
                 <Image
+                  className={"black-custom-color-filtered"}
                   src="/assets/icons/instagram.png"
                   alt="Instagram"
                   width={24}
@@ -74,6 +76,7 @@ export const Footer = (props: ComponentProps) => {
               </a>
               <a href="https://www.instagram.com/motivami" target="_blank">
                 <Image
+                  className={"black-custom-color-filtered"}
                   src="/assets/icons/tik-tok.png"
                   alt="TikTok"
                   width={24}
@@ -82,6 +85,7 @@ export const Footer = (props: ComponentProps) => {
               </a>
               <a href="https://www.twitter.com/motivami" target="_blank">
                 <Image
+                  className={"black-custom-color-filtered"}
                   src="/assets/icons/twitter.png"
                   alt="Twitter"
                   width={24}
