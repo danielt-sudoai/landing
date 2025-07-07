@@ -4,6 +4,8 @@ import { text } from "./text";
 import styles from "./SectionPricing.module.css";
 import { HederSection } from "../Heder-Section/HederSection";
 import { CardPricing } from "../Card-Pricing/CardPricing";
+import { const_pricing } from "@/consts/Const-Pricing";
+import { TypePricing } from "@/types/type-Pricing";
 
 interface ComponentProps {}
 
@@ -23,21 +25,9 @@ export const SectionPricing = (props: ComponentProps) => {
         subtitle={text[l].header.subtitle}
       />
       <div className={styles.cards_container}>
-        <CardPricing
-          title="Basic"
-          price="10"
-          features={["100 projects", "1000 tasks", "10000 items"]}
-        />
-        <CardPricing
-          title="Pro"
-          price="20"
-          features={["1000 projects", "10000 tasks", "100000 items"]}
-        />
-        <CardPricing
-          title="Pro"
-          price="20"
-          features={["1000 projects", "10000 tasks", "100000 items"]}
-        />
+        {const_pricing.map((pricing: TypePricing, index: number) => (
+          <CardPricing key={index} pricing={pricing} />
+        ))}
       </div>
     </section>
   );

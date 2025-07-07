@@ -7,6 +7,7 @@ import styles from "./page.module.css";
 import { text } from "./page-text";
 import { useContextLanguage } from "@/context/context-Language";
 import { SectionPricing } from "@/components/layout/Section-Pricing/SectionPricing";
+import { SectionTestimonials } from "@/components/layout/Section-Testimonials/SectionTestimonials";
 
 export default function Home() {
   const { l } = useContextLanguage();
@@ -71,6 +72,7 @@ export default function Home() {
           direction="right"
         />
         <SectionPricing />
+        <SectionTestimonials />
       </main>
       <footer></footer>
     </>
