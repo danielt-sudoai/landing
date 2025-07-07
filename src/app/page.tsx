@@ -8,6 +8,7 @@ import { text } from "./page-text";
 import { useContextLanguage } from "@/context/context-Language";
 import { SectionPricing } from "@/components/layout/Section-Pricing/SectionPricing";
 import { SectionTestimonials } from "@/components/layout/Section-Testimonials/SectionTestimonials";
+import { SectionFAQ } from "@/components/layout/Section-FAQ/SectionFAQ";
 
 export default function Home() {
   const { l } = useContextLanguage();
@@ -73,6 +74,7 @@ export default function Home() {
         />
         <SectionPricing />
         <SectionTestimonials />
+        <SectionFAQ />
       </main>
       <footer></footer>
     </>
