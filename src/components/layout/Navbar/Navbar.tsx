@@ -18,7 +18,7 @@ export const Navbar = (props: ComponentProps) => {
   // EFFECTS ----------------------
   // RENDER -----------------------
   return (
-    <div className={`${styles.container} padding-page`}>
+    <div className={`${styles.container}`}>
       {/* LOGO */}
       <div className={styles.container_logo}>
         <Image

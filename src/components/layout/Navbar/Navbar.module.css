@@ -14,9 +14,10 @@
   backdrop-filter: blur(10px);
   z-index: 1000;
   margin: 0 auto;
-  max-width: calc(100% - 2rem);
+  max-width: calc(100% - var(--padding-page) * 2);
   margin-top: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.48);
+  padding: 0 1rem;
 }
 
 .container_logo {

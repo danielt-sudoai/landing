@@ -32,7 +32,7 @@ export const SectionFullCard = (props: ComponentProps) => {
         />
         <div className={styles.box_content}>
           <div className={styles.box_content_text}>
-            <div>
+            <div className={styles.box_content_text_title}>
               <p className={styles.title}>{text[l].title}</p>
               <p className={styles.subtitle}>{text[l].subtitle}</p>
             </div>
