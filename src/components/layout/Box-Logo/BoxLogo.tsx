@@ -6,7 +6,7 @@ import Image from "next/image";
 
 interface ComponentProps {}
 
-export const BoxLogo = (props: ComponentProps) => {
+export const BoxLogo = (_props: ComponentProps) => {
   // VARIABLES --------------------
   const { l } = useContextLanguage();
   // STATES -----------------------

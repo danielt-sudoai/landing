@@ -5,7 +5,7 @@ import styles from "./Base.module.css";
 
 interface ComponentProps {}
 
-export const Base = (props: ComponentProps) => {
+export const Base = (_props: ComponentProps) => {
   // VARIABLES --------------------
   const { l } = useContextLanguage();
   // STATES -----------------------
